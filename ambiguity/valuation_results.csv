@@ -1,0 +1,9 @@
+query,avg_synsets,wordnet_label,is_ambiguous,threshold_used
+Amazon,4.0,AMBIGUOUS,True,3
+Python,3.0,UNAMBIGUOUS,False,3
+Java,3.0,UNAMBIGUOUS,False,3
+Mercury,4.0,AMBIGUOUS,True,3
+Apple,2.0,UNAMBIGUOUS,False,3
+Islamic finance in Nigeria,3.5,AMBIGUOUS,True,3
+Muslim community prayer,4.33,AMBIGUOUS,True,3
+West Africa newspaper,5.0,AMBIGUOUS,True,3
