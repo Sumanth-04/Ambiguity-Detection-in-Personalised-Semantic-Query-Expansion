@@ -14,7 +14,7 @@ env/
 .env
 
 # Large data files
-data/
+data/*.csv
 models/
 
 # IDE files
