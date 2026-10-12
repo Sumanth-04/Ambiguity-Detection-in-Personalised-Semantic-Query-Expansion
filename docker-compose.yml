@@ -1,0 +1,16 @@
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./embeddings:/app/embeddings
+      - ./data:/app/data
+
+  frontend:
+    build: ./dashboard/dashboard
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
